@@ -3,9 +3,7 @@
 This project demonstrates how to create a comprehensive form in HTML, including various input types and elements for user interaction. The form is designed to collect user information, such as name, email, phone number, date of birth, and more. It also includes interactive features like dropdown menus, radio buttons, and checkboxes.
 <br>
 <h2>Features</h2>
-<br>
 <h4>Text Inputs:</h4> For collecting name, email, and password.
-<br>
 <h4>Date Picker:</h4> To select the date of birth.
 <br>
 <h4>Dropdown Menu:</h4> To select gender.
