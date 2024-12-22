@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+    <link rel="stylesheet" href="Form.css">
+</head>
+
+<body>
+    <h1>Form in HTML</h1>
+    <form action="#">
+        <!-- Input for Name -->
+        <div>
+            <label for="name">Name:</label>
+            <input id="name" type="text" placeholder="Enter your name" required>
+        </div>
+        <!-- Email Input -->
+        <div>
+            <label for="email">Email:</label>
+            <input id="email" type="text" placeholder="Enter your email" required>
+        </div>
+        <!-- Phone Input -->
+        <div>
+            <label for="ph">Phone No.:</label>
+            <input id="ph" type="tel" placeholder="Enter phone number" required>
+        </div>
+        <!-- Password Input -->
+        <div>
+            <label for="password">Password:</label>
+            <input id="password" type="password" placeholder="Enter your password" required>
+        </div>
+        <!-- Date Input -->
+        <div>
+            <label for="dob">Date of Birth:</label>
+            <input id="dob" type="date" required>
+        </div>
+        <!-- Dropdown for Gender -->
+        <div>
+            <label for="gender">Gender:</label>
+            <select id="gender" required>
+                <option value="" disabled selected>Select Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <!-- Radio Buttons for Subscription Plan -->
+        <div>
+            <p>Subscription Plan:</p>
+            <input id="basic" type="radio" name="subscription" value="basic"<label for="basic">Basic</label>
+            <!-- <label for="basic">Basic</label> -->
+            <input id="premium" type="radio" name="subscription" value="premium"<label for="premium">Premium</label>
+            <!-- <label for="premium">Premium</label> -->
+            <input id="vip" type="radio" name="subscription" value="vip"<label for="vip">VIP</label>
+            <!-- <label for="vip">VIP</label> -->
+        </div>
+        <!-- Checkbox for Terms and Conditions -->
+        <div>
+            <input id="terms" type="checkbox" required <label for="terms">I agree to the terms and conditions</label>
+            <!-- <label for="terms">I agree to the terms and conditions</label> -->
+        </div>
+        <!-- Textarea for Comments -->
+        <div>
+            <label for="comment">Comments:</label>
+            <textarea id="comment" placeholder="Enter your comments" rows="4"></textarea>
+        </div>
+        <!-- Submit Button -->
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+
+</html>
