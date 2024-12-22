@@ -20,18 +20,6 @@ This project demonstrates how to create a comprehensive form in HTML, including 
 <br>
 
 
-<dl>
-        <dt>HTML</dt>
-        <dd>HTML (HyperText Markup Language) is the standard language for creating web pages.</dd>
 
-        <dt>CSS</dt>
-        <dd>CSS (Cascading Style Sheets) is used to style and layout web pages, including design, colors, and fonts.</dd>
-
-        <dt>JavaScript</dt>
-        <dd>JavaScript is a programming language used to create dynamic and interactive effects on web pages.</dd>
-
-        <dt>Python</dt>
-        <dd>Python is a high-level programming language known for its readability and versatility, often used in web development, data analysis, and automation.</dd>
-    </dl>
 
 
